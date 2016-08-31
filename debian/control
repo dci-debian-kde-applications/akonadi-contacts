@@ -100,6 +100,6 @@ Replaces: kdepimlibs-data,
           libkf5akonadimime5 (<< 4:15.07.90+git20150819.1000),
           libkf5akonadisocialutils5 (<< 4:15.07.90+git20150819.1000),
           libkf5akonadixml5 (<< 4:15.07.90+git20150819.1000)
-Description: akonadi-contact data files
+Description: Akonadi contacts access library - data files
  This package contains data files for all libraries that are part of
- akonadi-contact.
+ akonadi-contacts.
