@@ -1,11 +1,12 @@
-akonadi-contacts (4:16.08.0-2~~1.gbpfc9029) UNRELEASED; urgency=medium
+akonadi-contacts (4:16.08.1-1~1.gbp8b6dd4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fc9029ac6d4dedfbedd6ab17fc72295522550494 **
+  ** SNAPSHOT build @8b6dd44104a0f78e13b7822385048bcffd13aa3a **
 
   [ Jonathan Riddell ]
   * Initial packaging based on kdepimlibs
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 31 Aug 2016 14:07:15 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:07:32 +0200
