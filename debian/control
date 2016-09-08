@@ -19,7 +19,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libboost-graph-dev (>= 1.34.0~),
                libgrantlee5-dev (>= 5.1~),
                libkf5akonadi-dev (>= 4:16.04~),
-               libkf5akonadimime-dev (>= 5.3.0~),
+               libkf5akonadimime-dev (>= 5.3.1~),
                libkf5akonadiserver-dev (>= 4:15.12.1~),
                libkf5calendarcore-dev (>= 15.12.0~),
                libkf5codecs-dev (>= 5.23.0~),
@@ -73,8 +73,8 @@ Architecture: any
 Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadicontact5 (= ${binary:Version}),
-         libkf5calendarcore-dev (>= 5.3.0~),
-         libkf5contacts-dev (>= 5.3.0~),
+         libkf5calendarcore-dev (>= 5.3.1~),
+         libkf5contacts-dev (>= 5.3.1~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi contacts access library - development files
