@@ -77,6 +77,7 @@ Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadicontact5 (= ${binary:Version}),
          libkf5calendarcore-dev (>= 5.2.0~),
+         libkf5contacteditor-dev,
          libkf5contacts-dev (>= 5.2.0~),
          ${misc:Depends},
          ${shlibs:Depends}
