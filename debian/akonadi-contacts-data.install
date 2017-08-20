@@ -4,3 +4,6 @@ usr/share/kservices5/akonadi/contact/
 usr/share/kservices5/akonadicontact_actions.desktop
 usr/share/kservicetypes5/kaddressbookimprotocol.desktop
 usr/share/locale/
+etc/xdg/akonadi-contacts.categories
+etc/xdg/contact-editor.categories
+usr/share/contacteditor/grantleetheme/
