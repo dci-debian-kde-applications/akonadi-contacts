@@ -1,5 +1,4 @@
 usr/include/KF5/Akonadi/Contact/
-usr/include/KF5/akonadi-contact_version.h
 usr/include/KF5/akonadi/contact/
 usr/lib/*/cmake/KF5AkonadiContact/
 usr/lib/*/libKF5AkonadiContact.so
