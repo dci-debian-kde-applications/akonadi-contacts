@@ -110,6 +110,9 @@ Description: Akonadi contacts access library - development files
  This package is part of the KDE Development Platform PIM libraries module.
  .
  This package contains the development files.
+Breaks: libkf5akonadicalendar-dev (<< 4:17.08),
+        libkf5kaddressbookgrantlee-dev (<< 4:17.08),
+        libkf5pimcommon-dev (<< 4:17.08),
 
 Package: libkf5akonadicontact5
 Architecture: any
@@ -122,6 +125,23 @@ Description: Akonadi contacts access library
  Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+Breaks: akonadiconsole (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
+        kalarm (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kdepim-runtime (<< 4:17.08),
+        kdepim-themeeditors (<< 4:17.08),
+        kmail (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5akonadicalendar5 (<< 4:17.08),
+        libkf5incidenceeditor5 (<< 17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
+        libkf5kdepimdbusinterfaces5 (<< 4:17.08),
+        libkf5libkdepim5 (<< 4:17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5messageviewer5 (<< 4:17.08),
+        libkf5pimcommon5 (<< 4:17.08),
+        libkf5templateparser5 (<< 4:17.08),
 
 Package: libkf5contacteditor-data
 Architecture: all
