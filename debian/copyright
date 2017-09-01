@@ -9,43 +9,49 @@ Comment: Numerous people, too many to count, have contributed to kdepimlibs as
  Copyright: 1996-2015, The KDE project http://www.kde.org
 
 Files: *
-Copyright: 2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
+Copyright: 2010, Bjoern Ricks <bjoern.ricks@intevation.de>
+           2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
            2009, Constantin Berzan <exit3219@gmail.com>
            2009, David Jarvie <djarvie@kde.org>
            2010, Felix Mauch <felix_mauch@web.de>
            2010, KDAB
-           2016, Laurent Montel <laurent.montel@kdab.com>
+           2016-2017, Laurent Montel <laurent.montel@kdab.com>
            2001, Marc Mutz <mutz@kde.org>
-           2012-2016, Laurent Montel <montel@kde.org>
+           2012-2017, Montel Laurent <montel@kde.org>
            2009, Stephen Kelly <steveire@gmail.com>
            2007-2010, Tobias Koenig <tokoe@kde.org>
            2008, Volker Krause <vkrause@kde.org>
            2016, eyeOS S.L.U., a Telefonica company <sales@eyeos.com>
+           2009, Free Software Foundation, Inc
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2009-2016, This_file_is_part_of_KDE
 License: LGPL-2+
 
-Files: src/editor/addresseditor/iconnamecache.cpp
-       src/editor/addresseditor/iconnamecache_p.h
-Copyright: 2009, Thomas McGuire <mcguire@kde.org>
-License: LGPL-2+3+KDEeV
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2009-2016, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
 
-Files: src/editor/widgets/kwidgetlister.cpp
-       src/editor/widgets/kwidgetlister_p.h
+Files: src/contact-editor/editor/widgets/kwidgetlister.cpp
+       src/contact-editor/editor/widgets/kwidgetlister_p.h
 Copyright: 2001, Marc Mutz <mutz@kde.org>
 License: GPL-2
 
-Files: COPYING.BSD
-Copyright: No copyright claim, only the license text
-License: BSD-2-clause
+Files: src/contact-editor/editor/addresseditor/iconnamecache.cpp
+       src/contact-editor/editor/addresseditor/iconnamecache_p.h
+Copyright: 2009, Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+3+KDEeV
 
-Files: akonadi-contact/src/editor/data/zone.tab
+Files: src/contact-editor/editor/data/*
+Copyright: No copyright claimed
+License: public-domain
+
+Files: src/contact-editor/data/zone.tab
 Copyright: Not copyright claimed
 License: public-domain
  This file is in the public domain, so clarified as of
  2009-05-17 by Arthur David Olson.
-
-Files: debian/*
-Copyright: 2007-2015, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-License: GPL-2+
 
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
@@ -144,3 +150,16 @@ License: LGPL-2+3+KDEeV
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
  likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files: debian/*
+Copyright: 2007-2015, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
