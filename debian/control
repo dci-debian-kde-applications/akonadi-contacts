@@ -143,36 +143,6 @@ Breaks: akonadiconsole (<< 4:17.08),
         libkf5pimcommon5 (<< 4:17.08),
         libkf5templateparser5 (<< 4:17.08),
 
-Package: libkf5contacteditor-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: akonadi-contacts-data (<< 4:17.08~),
-        kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        kdepimlibs-data (<< 4:16.08~),
-        libakonadi-kf5 (<< 4:16.04.3~),
-        libkf5akonadicontact5 (<< 4:16.04.3~),
-        libkf5akonadisocialutils5 (<< 4:16.04.3~),
-        libkf5akonadixml5 (<< 4:16.04.3~),
-        ${kde-l10n:all},
-Replaces: akonadi-contacts-data (<< 4:17.08~),
-          kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          kdepimlibs-data (<< 4:16.08~),
-          libakonadi-kf5 (<< 4:16.04.3~),
-          libkf5akonadicontact5 (<< 4:16.04.3~),
-          libkf5akonadisocialutils5 (<< 4:16.04.3~),
-          libkf5akonadixml5 (<< 4:16.04.3~),
-          ${kde-l10n:all},
-Description: Akonadi contacts editor library - data files
- This library provides contacts manipulation helpers using the
- Akonadi PIM data server.
- .
- This package is part of the KDE Development Platform PIM libraries module.
- .
- This package contains the data files.
-
 Package: libkf5contacteditor-dev
 Section: libdevel
 Architecture: any
