@@ -113,6 +113,7 @@ Files: kioslave/src/nntp/CMakeLists.txt
        kioslave/src/nntp/nntp.protocol
        kioslave/src/nntp/nntps.protocol
 License: Expat
+Copyright: 2004-2007, Szombathelyi György <gyurco@freemail.hu>
 Comment: No explicit license found, using license(s) from:
  kioslave/src/nntp/LICENSE
 
