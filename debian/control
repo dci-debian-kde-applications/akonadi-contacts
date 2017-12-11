@@ -54,7 +54,7 @@ Build-Depends: cmake (>= 3.0~),
                qtwebengine5-dev | libqt5webengine5-dev,
                shared-mime-info (>= 0.30),
                xsltproc,
-Standards-Version: 4.0.1
+Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-contacts.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-contacts.git
