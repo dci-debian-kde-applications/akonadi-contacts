@@ -60,7 +60,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-contacts.gi
 Package: akonadi-contacts-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
         kdepimlibs-data,
@@ -98,7 +98,6 @@ Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5contacteditor-dev,
          libkf5contacts-dev (>= 17.08.0~),
          ${misc:Depends},
-         ${shlibs:Depends},
 Description: Akonadi contacts access library - development files
  This library provides contacts manipulation helpers using the
  Akonadi PIM data server.

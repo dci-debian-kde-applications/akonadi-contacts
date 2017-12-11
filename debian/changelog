@@ -17,6 +17,8 @@ akonadi-contacts (4:17.08.0-2~) UNRELEASED; urgency=medium
     - build the code using it conditionally; patch optional-qtwebengine.diff
     - restrict the qtwebengine5-dev on the architectures where it is
       available: amd64 arm64 armhf i386 mipsel.
+  * Remove the unused ${shlibs:Depends} substvar from akonadi-contacts-data,
+    and libkf5akonadicontact-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:57:42 +0100
 
