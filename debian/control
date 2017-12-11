@@ -92,7 +92,6 @@ Description: Akonadi contacts access library - data files
 Package: libkf5akonadicontact-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadicontact5 (= ${binary:Version}),
          libkf5calendarcore-dev (>= 5.3.1~),
@@ -143,7 +142,6 @@ Breaks: akonadiconsole (<< 4:17.08),
 Package: libkf5contacteditor-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5contacteditor5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},

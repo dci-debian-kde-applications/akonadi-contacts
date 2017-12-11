@@ -11,6 +11,8 @@ akonadi-contacts (4:17.08.0-2~) UNRELEASED; urgency=medium
     - remove the alternative libqt5webchannel-dev & libqt5webengine5-dev, use
       their existing counterparts (libqt5webchannel5-dev & qtwebengine5-dev)
     - remove the unused kdoctools-dev, and kio-dev
+  * Remove the wrong Multi-Arch: foreign from libkf5akonadicontact-dev, and
+    libkf5contacteditor-dev. (Closes: #872139)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:57:42 +0100
 
