@@ -12,8 +12,8 @@ Forwarded: not-needed
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -30,7 +30,12 @@ set(KMIMELIB_VERSION "5.6.0")
- set(AKONADI_VERSION "5.6.0")
+@@ -30,7 +30,12 @@ set(KMIMELIB_VERSION "5.6.3")
+ set(AKONADI_VERSION "5.6.3")
  
  set(QT_REQUIRED_VERSION "5.7.0")
 -find_package(Qt5 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets Test WebEngine WebEngineWidgets)
