@@ -67,6 +67,7 @@ Architecture: any
 Depends: libkf5akonadi-dev (>= 4:17.08.3~),
          libkf5akonadicontact5 (= ${binary:Version}),
          libkf5contacts-dev (>= 4:17.08.3~),
+         libkf5contacteditor-dev,
          ${misc:Depends},
 Description: Akonadi contacts access library - development files
  This library provides contacts manipulation helpers using the
