@@ -64,6 +64,7 @@ Description: Akonadi contacts access library - data files
 Package: libkf5akonadicontact-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:17.08.3~),
          libkf5akonadicontact5 (= ${binary:Version}),
          libkf5contacteditor-dev,
