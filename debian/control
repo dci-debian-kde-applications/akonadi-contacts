@@ -127,6 +127,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5contacteditor5 (= ${binary:Version}),
+         libkf5contacts-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi contacts access library - development files
