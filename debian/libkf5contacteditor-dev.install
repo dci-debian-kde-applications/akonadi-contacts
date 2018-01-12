@@ -1,4 +1,5 @@
 usr/include/KF5/ContactEditor/
+usr/include/KF5/contacteditor/abstractaddresslocationwidget.h
 usr/include/KF5/contacteditor/categorieseditabstractwidget.h
 usr/include/KF5/contacteditor/contacteditor_export.h
 usr/include/KF5/contacteditor/contacteditorpageplugin.h
