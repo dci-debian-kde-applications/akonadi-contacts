@@ -34,6 +34,7 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-contact
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-contacts.git
 
 Package: akonadi-contacts-data
+Section: kde
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
